@@ -247,11 +247,25 @@
       <li>For more information on how Google processes ad data, please review <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google's Privacy & Terms</a>.</li>
     </ul>
 
-    <h2>4. Local Backups & Data Ownership</h2>
+    <h2 id="data-deletion">4. Data Deletion & Local Backups</h2>
+    <p>Because MyMedi has no user accounts and no cloud backend, you have absolute ownership over your data. All medication records exist exclusively in your device's local encrypted storage.</p>
+    
+    <div class="highlight-card" style="background-color: #FEF3C7; border-color: #FCD34D;">
+      <strong style="color: #92400E;">How to Delete Your Data in MyMedi:</strong>
+      <ol style="margin-top: 8px; margin-bottom: 8px; color: #78350F;">
+        <li>Open the <strong>MyMedi</strong> app on your device.</li>
+        <li>Open the menu or tap <strong>Settings</strong>.</li>
+        <li>Scroll down to the <strong>Danger Zone</strong> section.</li>
+        <li>Tap <strong>Clear All Data</strong> and confirm your request.</li>
+      </ol>
+      <p style="margin-bottom: 0; font-size: 0.95rem; color: #78350F;">
+        <strong>What is deleted:</strong> All scheduled medicines, dose logs, adherence streaks, refill counts, doctor notes, and audio settings are permanently and irreversibly purged from the local SQLite database. Deletion is instantaneous and zero copies are retained on any external server. You can also completely delete all data at any time simply by uninstalling the application from your device.
+      </p>
+    </div>
+
     <ul>
-      <li>You maintain 100% ownership and control over your medication data.</li>
-      <li>You can export an unencrypted or tamper-verified <code>.mymedi</code> local JSON backup file to your own storage at any time.</li>
-      <li>You can permanently purge all stored medications, schedules, logs, and notes instantly via <strong>Settings &gt; Clear All Data</strong>.</li>
+      <li><strong>Local Data Export:</strong> You can export an unencrypted or tamper-verified <code>.mymedi</code> local JSON backup file to your own storage at any time via <strong>Settings &gt; Backup &amp; Restore</strong>.</li>
+      <li><strong>No Server Retention:</strong> Since MyMedi does not transmit personal data to remote servers, no residual data remains on any external infrastructure after in-app deletion or app uninstallation.</li>
     </ul>
 
     <h2>5. Children's Privacy</h2>

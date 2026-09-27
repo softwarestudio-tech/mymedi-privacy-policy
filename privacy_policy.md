@@ -44,11 +44,18 @@ MyMedi is sustained through non-intrusive bottom banner advertising provided by 
 
 ---
 
-## 4. Local Backups & Data Ownership
+## 4. Data Deletion & Local Backups
 
-* You maintain 100% ownership and control over your medication data.
-* You can export an unencrypted or tamper-verified `.mymedi` local JSON backup file to your own storage at any time.
-* You can permanently purge all stored medications, schedules, logs, and notes instantly via **Settings > Clear All Data**.
+Because MyMedi has no user accounts and no cloud backend, all data deletion is executed directly on your device:
+
+* **How to Delete Data**:
+  1. Open the **MyMedi** app.
+  2. Go to **Settings**.
+  3. Scroll down to the **Danger Zone** section.
+  4. Tap **Clear All Data** and confirm.
+* **What is Deleted**: All medications, dose records, adherence logs, notes, and preferences are permanently and immediately erased from your local SQLite database. No copies exist on any external server.
+* **Uninstallation**: Uninstalling the MyMedi app immediately and permanently purges all app data from your device.
+* **Local Backups**: You can export an unencrypted or tamper-verified `.mymedi` local JSON backup file to your own storage at any time via **Settings > Backup & Restore**.
 
 ---
 

@@ -68,4 +68,4 @@ MyMedi is designed for adults, seniors, and caregivers. We do not knowingly coll
 ## 6. Contact Us
 
 If you have questions or concerns regarding this Privacy Policy or MyMedi's offline architecture, please contact us via our public repository:
-* **GitHub Repository**: [https://github.com/ParikshitGupta/MyMedi_App](https://github.com/ParikshitGupta/MyMedi_App)
+* **GitHub Repository**: [https://github.com/softwarestudio-tech/mymedi-privacy-policy](https://github.com/softwarestudio-tech/mymedi-privacy-policy)
